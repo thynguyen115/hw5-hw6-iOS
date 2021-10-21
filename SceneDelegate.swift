@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Instagram
 //
-//  Created by Khoi Nguyen on 10/18/21.
+//  Created by Thy Nguyen on 10/18/21.
 //
 
 import UIKit
