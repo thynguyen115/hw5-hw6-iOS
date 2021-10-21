@@ -1,24 +1,31 @@
 //
-//  PostCell.swift
+//  MyPost.swift
 //  Instagram
 //
-//  Created by Khoi Nguyen on 10/18/21.
+//  Created by Thy Nguyen on 10/20/21.
 //
 
 import UIKit
-import Parse
 
 class PostCell: UITableViewCell {
-
+    
+    @IBOutlet weak var photoView: UIImageView!
+    @IBOutlet weak var captionLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
+    
 
 }
